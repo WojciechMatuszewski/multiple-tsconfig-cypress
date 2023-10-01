@@ -1,0 +1,6 @@
+{
+  "compilerOptions": {},
+  "extends": ["./tsconfig.node.json"],
+  "include": ["cypress", "cypress.config.ts", "src"],
+  "exclude": ["**/*.tsx"]
+}

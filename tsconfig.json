@@ -1,0 +1,16 @@
+{
+  "references": [
+    { "path": "./tsconfig.node.json" },
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.cypress.component.json" },
+    { "path": "./tsconfig.cypress.e2e.json" }
+  ],
+  "files": [],
+  // This is needed for Cypress to parse the config file.
+  "ts-node": {
+    "transpileOnly": true,
+    "compilerOptions": {
+      "module": "ESNext"
+    }
+  }
+}
