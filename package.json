@@ -12,6 +12,7 @@
     "typecheck:app": "tsc --noEmit --project tsconfig.app.json",
     "typecheck:cypress:component": "tsc --noEmit --project tsconfig.cypress.component.json",
     "typecheck:cypress:e2e": "tsc --noEmit --project tsconfig.cypress.e2e.json",
+    "typecheck:node": "tsc --noEmit --project tsconfig.node.json",
     "typecheck": "concurrently pnpm:typecheck:*"
   },
   "dependencies": {
