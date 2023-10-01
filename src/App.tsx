@@ -4,6 +4,7 @@
  *
  * The support for having multiple tsconfig files in vscode is non-existent.
  */
+
 cy.mount("");
 
 function App() {
